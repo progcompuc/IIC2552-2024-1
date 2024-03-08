@@ -4,43 +4,21 @@ title: Temario
 
 # Temario
 
-## [Estructuras de Datos](../../../resources/data_structures) (4 semanas)
+Dentro del curso veremos problemas de programación competitiva.
 
-- Estructuras de datos en C++ STL (para llegar y usar)
-- Sparse Tables
-- Segment Tree
-- Segment Tree Lazy
-- Fenwick Tree
-- Fenwick Tree 2D
-- Union Find
+Algunos de los tópicos que veremos para resolver problemas puntuales son:
 
-## [Algoritmos de Grafos](../../resources/graphs) (3 semanas)
+- Búsqueda Binaria y Ternaria
 
-- MST (minimun spanning tree)
-- LCA (lowest common ancestor)
-- Puntos de Articulación, Aristas de Corte y Componentes Biconexas
-- SCC (strongly connected components)
-- Flujo máximo y aplicaciones
+- Fuerza Bruta y Backtracking
 
-## [Algoritmos de Strings](../resources/strings) (2 semanas)
+- Programación Dinámica
 
-- Trie
-- Suffix Array
-- Suffix Automaton (?)
-- Rolling Hashing
-- KMP (Knuth Morris Pratt)
+- Algoritmos Codiciosos
 
-## [Geometría](../../resources/geometry) (1 o 2 semanas)
+- Grafos
 
-- Producto punto y producto cruz
-- Cálculo de áreas
-- Convex Hull
-- Sweep Lines
+- Teoría de Números
 
-## Repaso de temas varios vistos el primer semestre
+- Estructuras de Datos
 
-- [Binary & Ternary Search](../../resources/search)
-- [Backtracking](../../resources/backtracking)
-- [DP (programación dinámica)](../../resources/dp)
-- [Grafos básico (BFS/DFS/camino más corto)](../../resources/graphs)
-- [Matemática](../../resources/math)

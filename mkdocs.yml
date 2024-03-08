@@ -1,12 +1,12 @@
-site_name: Taller de Programación Competitiva II IIC255X-202Y-Z
-repo_url: https://github.com/ProgramacionCompetitivaPUC/IIC255X-202Y-Z
-site_url: https://ProgramacionCompetitivaPUC.github.io/IIC255X-202Y-Z/
+site_name: Taller de Programación Avanzada I IIC2552-2024-1
+repo_url: https://github.com/ProgramacionCompetitivaPUC/IIC2552-2024-1
+site_url: https://ProgramacionCompetitivaPUC.github.io/IIC2552-2024-1/
 edit_uri: ""
 nav:
   - Home: index.md
   - Información del Curso:
       - Introducción: about/introduction.md
-      - Cómo funciona el curso: about/how_course_works.md
+      - Cómo funciona el curso: about/activities.md
       - Temario: about/syllabus.md
       - Cálculo de la Nota Final: about/grading.md
   - Apuntes:
@@ -79,25 +79,27 @@ theme:
     - navigation.indexes
     - content.code.annotate
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
+    primary: deep purple
 
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+    # # Palette toggle for automatic mode
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/brightness-auto
+    #     name: Switch to light mode
 
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+    # # Palette toggle for light mode
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: Switch to dark mode
+
+    # # Palette toggle for dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to system preference
 
 extra_css:
   - stylesheets/extra.css

@@ -5,42 +5,32 @@ title: "Cálculo de la Nota Final"
 
 # Cálculo de la Nota Final
 
-- Sea $P_i =$ total puntos por problemas resueltos **dentro** de plazo en el contest $i$-ésimo
-- Sea $T_i =$ total puntos por problemas resueltos **fuera** de plazo en el contest $i$-ésimo
-- Sea $M_i =$ puntaje mínimo esperado para el contest $i$-ésimo
-- Sea $A_i = 1$ si viniste a clases para el contest $i$-ésimo, $0$ si no
-- Sea $N =$ número de contests
+Este semestre tendrá doce semanas de clases, y para cada una pediremos ocho puntos. Tu nota final va a ser 1 + 6 * (puntos obtenidos) / 96 + bonus.
 
-Así, se calcula:
+Formas de obtener puntos:
 
-- $D_i = \max(M_i - P_i, 0) =$ deuda de puntaje del contest $i$-ésimo
-- $PA_i = 3$ si vienes a clase, $\max(0, \min(3, P_i - M_i))$ si no vienes
-- $E_i = \max(P_i - M_i, 0) + T_i - (1-A_i) \cdot PA_i =$ excedente de puntaje del contest $i$-ésimo, considerando posible descuento por inasistencia
-- $X_i = 1 - \frac{D_i}{M_i} =$ fracción completada del mínimo esperado para el contest $i$-ésimo
-- $D =$ suma de todos los $D_i$
-- $E =$ suma de todos los $E_i$
-- $X =$ promedio de todos los $X_i$
-- $A = \frac{\min(1, \sum PA_i)}{(3 \cdot (N-2))}$, el $-2$ considera dos días de inasistencia perdonados
+1. Haciendo problemas
 
-Así, $E$ se usa para reducir la deuda $D$ de la siguiente manera:
+	Cada semana dispondremos de ocho a diez problemas en un contest de vjudge, cada uno con un puntaje entre 1 y 5. Si haces el problema mientras esté activo el contest, sumas esos puntos.
 
-- $D' = \max(D - E \cdot 0.3, 0)$
-- $X' = X + (1-X) \cdot \frac{(D-D')}{D}$
+2. Viniendo a clases
 
-Así, se obtiene una nota preliminar
+	Cada asistencia vale dos puntos de ese contest. Tienes dos fichas de asistencia gratis que puedes usar en las clases que tú elijas (si no elijes las pondremos en las dos semanas que tengas menos puntos).
 
-- $\operatorname{Nota}_{V1} = (1 + 6 \cdot X') \cdot 0.75 + (1 + 6 \cdot A) \cdot 0.25$
+3. Excedentes
 
-Sin embargo, luego se bajará la escala del curso, es decir, si ningún alumno alcanzó el $7$, el alumno con mayor nota quedará con $7$ (siempre y cuando la escala baje "poco" - i.e. habrá un límite para bajar la escala con el fin de prevenir "hacks" al sistema).
+	Si haces problemas fuera de plazo, valen la mitad de su puntaje. Si en un contest tienes más de ocho puntos, el excedente vale la mitad. Estos excedentes se suman a los puntos obtenidos.
 
-- $\operatorname{Nota}_{V2} =$ aplicar_escala_reducida($\operatorname{Nota}_{V1}$)
 
-Luego se calcula las décimas de bonus efectivas:
+Estrategias para tener buena nota:
 
-- $B = (BCpp + BRPC + BCI) \cdot \frac{(\operatorname{Nota}_{V1} - 1)}{6}$
+- Hacer un esfuerzo mas o menos constante a lo largo del semestre. 
+- Hacerse bolsa un par de semanas y no hacer casi nada el resto. No recomendado.
 
-Finalmente, la nota final está dada por:
 
-- $\operatorname{Nota}_{V3} = \operatorname{Nota}_{V2} + B$
+Bonus:
 
-Todo lo anterior se encuentra formalizado en el spreadsheet de notas y asistencia: [link](https://docs.google.com/spreadsheets/d/1aQw5LfJJjrb4xYWpaZi9x6e6Sv3BpKT0TN-stCyU3_c/)
+La última pieza de la nota final son los bonus, que están detallados [acá](../../about/activities/).
+
+
+Todo lo anterior se encuentra formalizado en el spreadsheet de notas y asistencia: [link]()

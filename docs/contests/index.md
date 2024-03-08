@@ -6,16 +6,13 @@ title: Contests
 
 ## Contest 1
 
-Agosto 11, 15 días, [link a **contest**](https://vjudge.net/contest/510018)
+Marzo 8, 15 días, [link a **contest**]()
 
-**Tópicos**: [Estructuras de Datos de C++ STL](../resources/data_structures)
+**Tópicos**: Introducción a programación competitiva
 
 **Puntos**:
 
-| Problema  | `A` | `B` | `C` | `D` | `E` | `F` | `G` | `H` | `I` | `J` | `K` |
-| --------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Puntaje   |  4  |  3  |  3  |  4  |  4  |  3  |  3  |  3  |  4  |  4  |  6  |
+| Problema  | `A` | `B` | `C` | `D` | `E` | `F` | `G` | `H` |
+| --------- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| Puntaje   |  ?  |  ?  |  ?  |  ?  |  ?  |  ?  |  ?  |  ?  | 
 
-**Puntaje Mínimo Esperado**: 5
-
-**Hints** y **códigos de ejemplo**: [link](hints/contest1)
