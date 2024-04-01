@@ -21,7 +21,6 @@ nav:
           - Aritmética modular: notes/math/modular_arithmetic.md
   - Contests:
       - contests/index.md
-      - Contest 1: contests/hints/contest1.md
   - Recursos:
       - resources/index.md
       - C++:
